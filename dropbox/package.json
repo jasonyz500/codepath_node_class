@@ -1,0 +1,25 @@
+{
+  "name": "node_class_hw2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --use-strict index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird-nodeify": "^1.1.0",
+    "chokidar": "^1.4.3",
+    "express": "^4.13.4",
+    "json-over-tcp": "^0.3.2",
+    "mime-types": "^2.1.10",
+    "mkdirp": "^0.5.1",
+    "mkdirp-promise": "^1.0.4",
+    "morgan": "^1.7.0",
+    "rimraf": "^2.5.2",
+    "songbird": "^1.0.2",
+    "yargs": "^4.3.2"
+  }
+}
